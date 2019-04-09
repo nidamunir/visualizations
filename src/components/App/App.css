@@ -1,0 +1,80 @@
+#app {
+  position: relative;
+}
+
+#content {
+  /* position: absolute;
+  top: 0; */
+  text-align: center;
+  padding-bottom: 70px;
+  margin: 0px 100px;
+}
+#footer p {
+  vertical-align: middle;
+  display: table-cell;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  display: table;
+  background-color: rgb(8, 63, 3);
+  text-align: center;
+
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 12px;
+}
+
+#pie-chart,
+#sankey-chart,
+#sunburst-chart {
+  height: 400px;
+}
+
+#sankey-chart {
+  width: 600px;
+  margin: auto;
+}
+#pie-attr a {
+  cursor: pointer;
+  margin-right: 20px;
+  font-weight: 500;
+  color: crimson;
+}
+#pie-dropdown {
+  position: relative;
+  /* min-height: 100px;
+  overflow: hidden; */
+}
+.pie-attributes {
+  width: 300px;
+  /* position: absolute; */
+  /* right: 35px; */
+  float: left;
+  /* top: 0; */
+}
+
+.voffset1 {
+  margin-top: 15px;
+}
+.voffset2 {
+  margin-top: 25px;
+}
+
+#pie-dropdown > span {
+  /* position: absolute;
+  left: 0; */
+  top: 50%;
+  margin-top: 5px;
+  float: left;
+  padding-right: 15px;
+}
+
+h1,
+h5 {
+  font-weight: 500;
+  color: maroon;
+}
